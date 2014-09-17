@@ -1,0 +1,59 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Xilinx/Lab3/test_processor_isim_beh.exe" -prj "C:/Xilinx/Lab3/test_processor_beh.prj" "work.test_processor" 
+ISim O.61xd (signature 0x1cce1bb2)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx/Lab3/add.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/sign_extension.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/shift_left_16.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/shift_left.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/register_mux.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/register.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/pc_add.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/pc.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/link_mux.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/jump_mux.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/jump_add.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/instruction_memory.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/data_mux.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/data_memory.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/control_unit.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/branc_add.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/alu_mux.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/ALU_control.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/alu.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/processor.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Lab3/test_processor.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity pc [pc_default]
+Compiling architecture behavioral of entity pc_add [pc_add_default]
+Compiling architecture behavioral of entity instruction_memory [instruction_memory_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture behavioral of entity link_mux [link_mux_default]
+Compiling architecture behavioral of entity register_file [register_file_default]
+Compiling architecture behavioral of entity register_mux [register_mux_default]
+Compiling architecture behavioral of entity shift_left_16 [shift_left_16_default]
+Compiling architecture behavioral of entity sign_extension [sign_extension_default]
+Compiling architecture behavioural of entity alu_control [alu_control_default]
+Compiling architecture behavioral of entity add [add_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity alu_mux [alu_mux_default]
+Compiling architecture behavioral of entity data_memory [data_memory_default]
+Compiling architecture behavioral of entity data_mux [data_mux_default]
+Compiling architecture behavioral of entity shift_left [shift_left_default]
+Compiling architecture behavioral of entity branch_add [branch_add_default]
+Compiling architecture behavioral of entity jump_add [jump_add_default]
+Compiling architecture behavioral of entity jump_mux [jump_mux_default]
+Compiling architecture behavioral of entity processor [processor_default]
+Compiling architecture behavior of entity test_processor
+Time Resolution for simulation is 1ps.
+Compiled 46 VHDL Units
+Built simulation executable C:/Xilinx/Lab3/test_processor_isim_beh.exe
+Fuse Memory Usage: 25696 KB
+Fuse CPU Usage: 514 ms
