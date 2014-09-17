@@ -1,0 +1,1 @@
+These asm files were made for the hardware, where addressing locations 16 and 20 represent Operand1 and Operand2 respectively, and addressing locations 24 and 28 represent Result1 and Result2.

@@ -1,0 +1,2 @@
+Please note that this folder contains an empty testbench file as the vhd files in both the simulationa and hardware is very identical (apart from the memory-mapped I/O).
+The test bench itself doesn't contain any input as the input is taken from the data memory.
